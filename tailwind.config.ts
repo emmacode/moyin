@@ -13,7 +13,8 @@ const config: Config = {
       },
       colors: {
         primary: "#e6f1ff",
-        primaryAlpha: "#ef3636",
+        primaryAlpha: "#adc8ff",
+        secondary: "#ef3636",
       },
       backgroundImage: {},
     },

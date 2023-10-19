@@ -1,0 +1,68 @@
+.aboutMe {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  width: 200px;
+  cursor: pointer;
+  border: 0.2px solid #000;
+  border-radius: 1px;
+  letter-spacing: 3px;
+  overflow: hidden;
+}
+
+.aboutMe::after {
+  content: "";
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background-image: conic-gradient(
+    transparent,
+    transparent,
+    transparent,
+    #adc8ff
+  );
+  animation: animate 4s infinite linear;
+  animation-delay: -2s;
+}
+
+.aboutMe::before {
+  content: "";
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background-image: conic-gradient(
+    transparent,
+    transparent,
+    transparent,
+    #ef3636
+  );
+  animation: animate 4s infinite linear;
+}
+
+@keyframes animate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.aboutMe span {
+  position: absolute;
+  inset: 2px;
+  border-radius: 1px;
+  background: #00003f;
+  z-index: 1;
+}
+
+.aboutMe p {
+  position: relative;
+  z-index: 2;
+}
+
+/* .aboutMe:hover {
+  box-shadow: inset 400px 50px 0 0 #ef3636;
+} */

@@ -47,7 +47,7 @@ export const Header = () => {
             <ol className="flex justify-between items-center list-none">
               <li>
                 <Link
-                  className="text-xs text-primary hover:text-primaryAlpha transition-all  duration-300 ease-linear delay-0 p-2.5"
+                  className="text-xs text-primary hover:text-secondary transition-all  duration-300 ease-linear delay-0 p-2.5"
                   href="#"
                 >
                   Projects
@@ -55,7 +55,7 @@ export const Header = () => {
               </li>
               <li>
                 <Link
-                  className="text-xs text-primary hover:text-primaryAlpha transition-all  duration-300 ease-linear delay-0 p-2.5"
+                  className="text-xs text-primary hover:text-secondary transition-all  duration-300 ease-linear delay-0 p-2.5"
                   href="#"
                 >
                   About
@@ -63,7 +63,7 @@ export const Header = () => {
               </li>
               <li>
                 <Link
-                  className="text-xs text-primary hover:text-primaryAlpha transition-all  duration-300 ease-linear delay-0 p-2.5"
+                  className="text-xs text-primary hover:text-secondary transition-all  duration-300 ease-linear delay-0 p-2.5"
                   href="#"
                 >
                   Contact

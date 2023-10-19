@@ -1,3 +1,4 @@
+import Seo from "@/components/Seo";
 import "../styles/globals.css";
 import { NextPage } from "next";
 import type { AppProps } from "next/app";
@@ -29,6 +30,14 @@ const sf = localFont({
 const App = ({ Component, pageProps }: AppPropsWithLayout) => {
   return (
     <>
+      <Seo
+        headTitle="Afolabi Moyin"
+        description="Experienced Software Software Engineer with over 3 years of expertise in HTML, CSS, TypeScript, JavaScript and React."
+        title="Frontend Engineer"
+        type="website"
+        url="https://moyin.netlify.app/"
+        image="/public/images/logo"
+      />
       <div className={`${sf.className} bg-[#00003f]`}>
         {<Component {...pageProps} />}
       </div>
