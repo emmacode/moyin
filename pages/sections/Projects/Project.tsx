@@ -9,7 +9,7 @@ interface ProjectStepProps {
 const projectStep: ProjectStepProps[] = [
   {
     title: "MusicPort",
-    image: "/public/images/sample1.png",
+    image: "/images/preview.png",
   },
   {
     title: "Creatella",

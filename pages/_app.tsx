@@ -1,7 +1,9 @@
-import Seo from "@/components/Seo";
-import "../styles/globals.css";
 import { NextPage } from "next";
 import type { AppProps } from "next/app";
+
+import Seo from "@/components/Seo";
+
+import "../styles/globals.css";
 
 import localFont from "next/font/local";
 
@@ -36,7 +38,7 @@ const App = ({ Component, pageProps }: AppPropsWithLayout) => {
         title="Frontend Engineer"
         type="website"
         url="https://moyin.netlify.app/"
-        image="/public/images/logo"
+        image="/images/preview.png"
       />
       <div className={`${sf.className} bg-[#00003f]`}>
         {<Component {...pageProps} />}
