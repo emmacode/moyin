@@ -66,3 +66,27 @@
 /* .aboutMe:hover {
   box-shadow: inset 400px 50px 0 0 #ef3636;
 } */
+
+.animatedarrowIcon {
+  display: flex;
+  justify-content: center;
+  -webkit-animation: scroll 1s infinite alternate;
+  animation: scroll 1s infinite alternate;
+}
+
+@-webkit-keyframes scroll {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+@keyframes scroll {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
