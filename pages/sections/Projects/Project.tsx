@@ -1,4 +1,5 @@
 import React from "react";
+import { forwardRef, Ref } from "react";
 import Image from "next/image";
 
 interface ProjectStepProps {
@@ -49,9 +50,9 @@ const ProjectCard = () => {
   );
 };
 
-export const Project = () => {
+const Project = forwardRef((props: any, ref: Ref<HTMLDivElement>) => {
   return (
-    <section className="mt-24 px-12">
+    <section className="mt-24 px-12" ref={ref} {...props}>
       <div className="flex items-center justify-end">
         <h3 className="text-primaryAlpha mr-2">Projects</h3>
         <span className="w-32 h-px bg-secondary"></span>
@@ -61,4 +62,7 @@ export const Project = () => {
       </div>
     </section>
   );
-};
+});
+
+Project.displayName = "Project";
+export { Project };

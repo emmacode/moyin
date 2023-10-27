@@ -15,8 +15,12 @@ const config: Config = {
         primary: "#e6f1ff",
         primaryAlpha: "#adc8ff",
         secondary: "#ef3636",
+        blackAlpha45: "rgba(0,0,0,.45)",
       },
       backgroundImage: {},
+      zIndex: {
+        1000: "1000",
+      },
     },
   },
   plugins: [],

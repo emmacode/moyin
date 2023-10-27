@@ -4,12 +4,14 @@ interface IProps {
   size?: number;
   color?: string;
   className?: string;
+  onClick?: () => void;
 }
 
 export const ArrowDownIcon: React.FC<IProps> = ({
   size = 20,
   color = "currentColor",
   className,
+  onClick,
 }) => {
   return (
     <svg
@@ -17,6 +19,7 @@ export const ArrowDownIcon: React.FC<IProps> = ({
       focusable="false"
       style={{ width: size, height: size }}
       className={className}
+      onClick={onClick}
     >
       <path
         fill={color}

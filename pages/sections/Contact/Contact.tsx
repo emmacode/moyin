@@ -1,4 +1,5 @@
 import React from "react";
+import { forwardRef, Ref } from "react";
 import Link from "next/link";
 
 import { GithubIcon } from "@/components/icons/GithubIcon";
@@ -6,9 +7,9 @@ import { GmailIcon } from "@/components/icons/GmailIcon";
 import { LinkedInIcon } from "@/components/icons/LinkedInIcon";
 import { TwitterIcon } from "@/components/icons/TwitterIcon";
 
-export const Contact = () => {
+const Contact = forwardRef((props: any, ref: Ref<HTMLDivElement>) => {
   return (
-    <section className="my-24 px-12">
+    <section className="my-24 px-12" ref={ref} {...props}>
       <div className="flex items-center justify-start">
         <span className="w-32 h-px bg-secondary"></span>
         <h3 className="text-primaryAlpha ml-2">Contact</h3>
@@ -49,4 +50,7 @@ export const Contact = () => {
       </div>
     </section>
   );
-};
+});
+
+Contact.displayName = "Contact";
+export { Contact };

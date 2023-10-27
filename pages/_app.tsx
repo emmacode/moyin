@@ -3,7 +3,8 @@ import type { AppProps } from "next/app";
 
 import Seo from "@/components/Seo";
 
-import "../styles/globals.css";
+import "../styles/globals.scss";
+import "../components/Modal/Modal.scss";
 
 import localFont from "next/font/local";
 
@@ -43,6 +44,7 @@ const App = ({ Component, pageProps }: AppPropsWithLayout) => {
       <div className={`${sf.className} bg-[#00003f]`}>
         {<Component {...pageProps} />}
       </div>
+      <div className="modal"></div>
     </>
   );
 };
