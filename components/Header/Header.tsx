@@ -22,7 +22,7 @@ export const Header: React.FC<IProps> = ({
                   className="text-xs text-secondary cursor-pointer p-2.5"
                   onClick={handleProjectScroll}
                 >
-                  V1
+                  v1
                 </Link>
               </li>
               <li className="flex items-center">

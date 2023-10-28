@@ -44,7 +44,6 @@ const App = ({ Component, pageProps }: AppPropsWithLayout) => {
       <div className={`${sf.className} bg-[#00003f]`}>
         {<Component {...pageProps} />}
       </div>
-      <div className="modal"></div>
     </>
   );
 };
