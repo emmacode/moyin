@@ -36,7 +36,7 @@ const App = ({ Component, pageProps }: AppPropsWithLayout) => {
       <Seo
         headTitle="Afolabi Moyin"
         description="Experienced Software Software Engineer with over 3 years of expertise in HTML, CSS, TypeScript, JavaScript and React."
-        title="Frontend Engineer"
+        title="Software Engineer"
         type="website"
         url="https://moyin.netlify.app/"
         image="/images/preview.png"
