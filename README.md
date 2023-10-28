@@ -21,8 +21,6 @@ Special thanks to Brittany Chiang and Olaolu for providing the inspiration for m
 - [Brittany Chiang](https://brittanychiang.com/)
 - [Olaolu Olawuyi](https://olaolu.dev/)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
 ## Versions
 
 - [v1](https://v1-moyin.netlify.app/)
