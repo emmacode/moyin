@@ -63,10 +63,6 @@
   z-index: 2;
 }
 
-/* .aboutMe:hover {
-  box-shadow: inset 400px 50px 0 0 #ef3636;
-} */
-
 .animatedarrowIcon {
   display: flex;
   justify-content: center;
@@ -89,4 +85,15 @@
   100% {
     transform: translateY(-10px);
   }
+}
+
+.skill::before{
+  width: 0.4em;
+  content: '';
+  height: 0.4em;
+  margin-right: 5px;
+  vertical-align: 10%;
+  display: inline-block;
+  filter: contrast(1.2);
+  background: #ef3636;
 }

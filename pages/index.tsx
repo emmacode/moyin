@@ -3,7 +3,7 @@ import React from "react";
 import { useScrollToRef } from "@/hook/useScroll";
 import { Header } from "@/components/Header/Header";
 
-import { Introduction } from "./sections/Introduction/introduction";
+import { Introduction } from "./sections/Introduction/Introduction";
 import { Project } from "./sections/Projects/Project";
 import { Contact } from "./sections/Contact/Contact";
 

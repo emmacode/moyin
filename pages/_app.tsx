@@ -4,7 +4,7 @@ import type { AppProps } from "next/app";
 import Seo from "@/components/Seo";
 
 import "../styles/globals.scss";
-import "../components/Modal/Modal.scss";
+import "../components/Drawer/Drawer.scss";
 
 import localFont from "next/font/local";
 
