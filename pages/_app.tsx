@@ -34,7 +34,7 @@ const App = ({ Component, pageProps }: AppPropsWithLayout) => {
   return (
     <>
       <Seo
-        headTitle="Afolabi Moyin"
+        headTitle="Afolabi Moyin: Software Engineer"
         description="Experienced Software Software Engineer with over 3 years of expertise in HTML, CSS, TypeScript, JavaScript and React."
         title="Software Engineer"
         type="website"
