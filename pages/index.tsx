@@ -18,9 +18,11 @@ export default function Home() {
           handleProjectScroll={projectScroll.scrollToRef}
           handleContactScroll={contactScroll.scrollToRef}
         />
-        <Introduction handleProjectScroll={projectScroll.scrollToRef} />
-        <Project ref={projectScroll.ref} />
-        <Contact ref={contactScroll.ref} />
+        <div>
+          <Introduction handleProjectScroll={projectScroll.scrollToRef} />
+          <Project ref={projectScroll.ref} />
+          <Contact ref={contactScroll.ref} />
+        </div>
       </div>
     </>
   );

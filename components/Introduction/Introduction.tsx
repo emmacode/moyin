@@ -19,7 +19,7 @@ export const Introduction: React.FC<IProps> = ({ handleProjectScroll }) => {
 
   const renderAbout = () => {
     return (
-      <div>
+      <div className="flex justify-center lg:justify-start">
         <button
           onClick={() => setIsDrawerOpen(true)}
           className={`${styles.aboutMe} bg-transparent outline-none py-3 px-5`}
@@ -32,17 +32,17 @@ export const Introduction: React.FC<IProps> = ({ handleProjectScroll }) => {
   };
 
   return (
-    <section className="mt-24 px-12">
+    <section className="mt-12 px-5 lg:px-12 lg:mt-24">
       <div className="flex flex-col">
-        <h2 className="font-normal text-5xl text-primary w-fit tracking-wider">
+        <h2 className="font-normal text-2xl lg:text-5xl text-primary w-fit tracking-wider">
           Afolabi Moyinoluwa.
         </h2>
 
-        <h3 className="font-semibold text-7xl text-primaryAlpha mt-2 w-fit tracking-wider">
+        <h3 className="font-semibold text-3xl lg:text-7xl text-primaryAlpha mt-2 w-fit tracking-wider">
           Creative Software <br /> Engineer.
         </h3>
         <div className="w-fit">
-          <p className="mt-5 text-primaryAlpha max-w-[650px] text-xl tracking-wider">
+          <p className="mt-5 text-primaryAlpha sm:max-w-[540px] lg:max-w-[650px] text-base lg:text-xl tracking-wider">
             I&apos;m a software engineer known for design excellence and a
             dedication to delivering top-notch, user-friendly web applications.
           </p>

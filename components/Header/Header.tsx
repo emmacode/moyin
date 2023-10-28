@@ -12,7 +12,7 @@ export const Header: React.FC<IProps> = ({
   return (
     <>
       <nav>
-        <div className="flex justify-start items-center px-12 h-24">
+        <div className="flex justify-center lg:justify-start items-center px-5 lg:px-12 h-24">
           <div className="flex flex-row">
             <ol className="flex justify-between items-center list-none">
               <li className="flex items-center">
@@ -45,7 +45,7 @@ export const Header: React.FC<IProps> = ({
             <Link
               href="https://drive.google.com/file/d/1I9IdKsXSBw_CvK5IRgjaQGt7ky6coTyL/view?usp=drive_link"
               target="_blank"
-              className="text-secondary rounded p-2 border border-secondary hover:border-l-4 hover:border-t-4 transition-all  ease-linear delay-0 ml-2"
+              className="text-secondary rounded p-1 lg:p-2 border border-secondary hover:border-l-4 hover:border-t-4 transition-all  ease-linear delay-0 ml-2"
             >
               My Résumé
             </Link>
