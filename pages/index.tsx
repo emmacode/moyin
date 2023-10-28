@@ -3,9 +3,9 @@ import React from "react";
 import { useScrollToRef } from "@/hook/useScroll";
 import { Header } from "@/components/Header/Header";
 
-import { Introduction } from "./sections/Introduction/Introduction";
-import { Project } from "./sections/Projects/Project";
-import { Contact } from "./sections/Contact/Contact";
+import { Introduction } from "../components/Introduction/Introduction";
+import { Project } from "../components/Projects/Project";
+import { Contact } from "../components/Contact/Contact";
 
 export default function Home() {
   const projectScroll = useScrollToRef();
