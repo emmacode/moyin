@@ -25,5 +25,5 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 
 ## Versions
 
-[v1](https://v1-moyin.netlify.app/)
-[Afolabi Moyinoluwa](https://moyin.netlify.app/)
+- [v1](https://v1-moyin.netlify.app/)
+- [Afolabi Moyinoluwa](https://moyin.netlify.app/)
