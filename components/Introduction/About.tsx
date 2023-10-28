@@ -45,7 +45,7 @@ export const About: React.FC<IProps> = ({ open, onClose }) => {
   const renderBody = () => {
     return (
       <div className="flex flex-col items-center">
-        <div className="mr-10 border border-secondary pb-4">
+        <div className="border border-secondary pb-4">
           <Image
             width={200}
             height={200}
@@ -170,7 +170,7 @@ export const About: React.FC<IProps> = ({ open, onClose }) => {
   };
   return (
     <Drawer open={open} onClose={onClose}>
-      <div className="p-4 mt-5">
+      <div className="p-1 lg:p-4 mt-5">
         {renderHead()}
         {renderBody()}
       </div>

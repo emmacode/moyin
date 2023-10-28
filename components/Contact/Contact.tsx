@@ -9,16 +9,16 @@ import { TwitterIcon } from "@/components/icons/TwitterIcon";
 
 const Contact = forwardRef((props: any, ref: Ref<HTMLDivElement>) => {
   return (
-    <section className="my-24 px-12" ref={ref} {...props}>
-      <div className="flex items-center justify-start">
+    <section className="my-20 lg:my-24 px-5 lg:px-12" ref={ref} {...props}>
+      <div className="flex items-center lg:justify-start">
         <span className="w-32 h-px bg-secondary"></span>
         <h3 className="text-primaryAlpha ml-2">Contact</h3>
       </div>
       <div className="mt-10">
-        <h3 className="text-primary text-7xl font-bold hover:text-primaryAlpha transition-all  duration-300 ease-linear delay-0 cursor-pointer w-fit">
+        <h3 className="text-primary text-4xl lg:text-7xl font-bold hover:text-primaryAlpha transition-all  duration-300 ease-linear delay-0 cursor-pointer text-center lg:w-fit">
           Say hello,
         </h3>
-        <div className="flex flex-row mt-10">
+        <div className="flex flex-row justify-center lg:justify-start mt-10">
           <Link
             href="https://github.com/emmacode"
             className="mr-4"

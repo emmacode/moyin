@@ -47,7 +47,7 @@ const ProjectCard = () => {
     //   </div>
     // </div>
     <div className="flex flex-col items-center">
-      <h1 className="text-primary text-3xl">
+      <h1 className="text-primary text-center text-xl lg:text-3xl">
         I&apos;m cooking for a better experience 😉
       </h1>
       <div className="flex flex-row mt-3">
@@ -61,7 +61,7 @@ const ProjectCard = () => {
 
 const Project = forwardRef((props: any, ref: Ref<HTMLDivElement>) => {
   return (
-    <section className="mt-24 px-12" ref={ref} {...props}>
+    <section className="mt-20 px-5 lg:px-12 lg:mt-24" ref={ref} {...props}>
       <div className="flex items-center justify-end">
         <h3 className="text-primaryAlpha mr-2">Projects</h3>
         <span className="w-32 h-px bg-secondary"></span>
