@@ -49,7 +49,7 @@ export const About: React.FC<IProps> = ({ open, onClose }) => {
           <Image
             width={200}
             height={200}
-            src="/images/me.jpg"
+            src="/images/me.jpeg"
             alt="Moyin's Photo"
             className="bg-blackAlpha45 mt-[-20px] ml-[-20px]"
           />
